@@ -1,0 +1,2 @@
+pyinstaller  --onedir  --windowed  --collect-all numpy  --collect-all MT5Manager  --hidden-import numpy  --hidden-import numpy.core  --hidden-import numpy.core.multiarray  main.py
+pyinstaller --onefile --windowed --add-data "config.json;." app.py

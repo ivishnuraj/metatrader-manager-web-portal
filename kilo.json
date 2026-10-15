@@ -1,0 +1,10 @@
+{
+  "$schema": "https://app.kilo.ai/config.json",
+  "mcp": {
+    "metatrader5-documentation": {
+      "type": "remote",
+      "url": "http://181.215.205.67:10000/sse",
+      "enabled": true
+    }
+  }
+}
